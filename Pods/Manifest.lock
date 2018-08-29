@@ -1,0 +1,31 @@
+PODS:
+  - AwesomeEnum (1.2.0)
+  - Hagrid (1.0.2):
+    - SnapKit (~> 4.0.0)
+  - Presentables (0.6.7)
+  - SnapKit (4.0.0)
+
+DEPENDENCIES:
+  - AwesomeEnum
+  - Hagrid (from `../Hagrid`)
+  - Presentables
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AwesomeEnum
+    - Presentables
+    - SnapKit
+
+EXTERNAL SOURCES:
+  Hagrid:
+    :path: "../Hagrid"
+
+SPEC CHECKSUMS:
+  AwesomeEnum: fe633a08020f92ab57277956c1df4d52fbfa27e0
+  Hagrid: 79b2ea059ef93cff46347fc6f6f12ff2329976e9
+  Presentables: e20dc46cdb8a83dd8473c584e146c953ac5e9c94
+  SnapKit: a42d492c16e80209130a3379f73596c3454b7694
+
+PODFILE CHECKSUM: ddf93142c04c3da963ce110803ca58ef5a699bf4
+
+COCOAPODS: 1.5.3
